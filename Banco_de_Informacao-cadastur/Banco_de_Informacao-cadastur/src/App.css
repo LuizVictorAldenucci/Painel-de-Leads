@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+/* Personalização da barra de rolagem para o modo escuro */
+.bg-gray-900::-webkit-scrollbar {
+  background-color: #1a202c;
+  width: 5px;
+  /* Defina a cor de fundo da barra de rolagem para o modo escuro */
+}
+
+*::-webkit-scrollbar {
+  background-color: rgba(160, 163, 161, 0.2);
+  width: 7px;
+  /* Defina a cor de fundo da barra de rolagem para o modo escuro */
+}
+
+
+/* Personalização da alça de rolagem para o modo escuro */
+.bg-gray-900::-webkit-scrollbar-thumb {
+  background-color: rgba(19, 165, 214, 0.6);
+  border-radius: 2px;
+  width: 5px;
+  /* Defina a cor da alça da barra de rolagem para o modo escuro */
+}
+
+/* Personalização da alça de rolagem para o modo escuro */
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(15, 154, 204);
+  border-radius: 2px;
+  width: 4px;
+  /* Defina a cor da alça da barra de rolagem para o modo escuro */
+}
+
+.table-container {
+  overflow: auto;
+  max-height: 75vh;
+  flex: 1;
+  position: relative;
+}
+
+.button-container {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  display: flex;
+
+}
+
+.button-container button {
+  flex: 1;
+}
